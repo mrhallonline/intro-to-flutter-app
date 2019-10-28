@@ -12,16 +12,13 @@ class MyApp extends StatelessWidget {
           centerTitle: true,
           backgroundColor: Colors.blueGrey[900],
           title: Text('I am Rich'),
-          
         ),
-        body: 
-        Center(
+        body: Center(
           child: Image(
-                  image: NetworkImage('https://cdn.arstechnica.net/wp-content/uploads/2016/02/5718897981_10faa45ac3_b-640x624.jpg'),
+            image: AssetImage('images/diamond.png')
           ),
         ),
-              
-            ),
-      );
+      ),
+    );
   }
 }
